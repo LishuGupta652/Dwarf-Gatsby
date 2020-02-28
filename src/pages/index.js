@@ -1,14 +1,17 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import Header from "../components/header"
+//image
+import logo from "../images/gatsby-icon.png"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    <Header />
 
+    <div className="wrapper"></div>
+    <div className="space"></div>
     {/* <Link to="/page-2/">Go to page 2</Link> */}
   </Layout>
 )
